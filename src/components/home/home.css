@@ -6,10 +6,7 @@
   background: var(--color-bg);
   height: 50vh;
 }
-.homePortfolio {
-  /* padding-left: 5%;
-  padding-right: %; */
-}
+
 .homeWrapper {
   display: flex;
   justify-content: start;
@@ -92,7 +89,6 @@
 }
 .homeHeader > .homeBtns > a > .homeBtn1:hover {
   border-radius: 20px;
-
   background: var(--color-bg-variant2);
 }
 .homeHeader > .homeBtns > a > .homeBtn2:hover {

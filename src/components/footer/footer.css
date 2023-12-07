@@ -31,6 +31,7 @@ footer a:hover {
   object-fit: cover;
   border-radius: 10%;
   padding: 2px;
+  background: var(--color-bg-variant2);
 }
 /* .footer__logo > img {
   width: 50px;

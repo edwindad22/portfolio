@@ -43,6 +43,7 @@
   border-radius: 10%;
   border: 0.5px solid var(--color-primary);
   padding: 2px;
+  background: var(--color-bg-variant2);
 }
 
 .navRightLinks > a {
