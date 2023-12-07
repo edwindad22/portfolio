@@ -1,0 +1,23 @@
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  opacity: 0.8;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  padding: 2px;
+}
+
+.top-btn-style:hover {
+  opacity: 1;
+  scale: 1.05;
+  transform: translateY(-5px);
+}
