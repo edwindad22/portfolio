@@ -4,7 +4,7 @@
 .homeContainer {
   padding: 20px 40px;
   background: var(--color-bg);
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .homeWrapper {
@@ -48,7 +48,6 @@
   border-left: 1px solid rgb(206, 206, 206);
   font-weight: 300;
   font-family: 'Montserrat Alternates', sans-serif;
-  /* margin: 0 10% 0 0; */
 }
 
 .homeHeader > .homeBtns {
@@ -58,7 +57,6 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  /* padding: 5px; */
 }
 
 .homeHeader > .homeBtns > a > .homeBtn1 {
@@ -81,7 +79,7 @@
   border-radius: 5px;
   background: rgba(255, 194, 128, 0.715);
   cursor: pointer;
-
+  color: var(--color-bg);
   transition: all 500ms ease-in-out;
   border: 1px solid #fcfcfc;
   border-left: 3px solid #d7dde5;
@@ -129,9 +127,46 @@
   .homeWrapper {
     line-height: 1.5;
   }
+  .homeHeader > p {
+    font-size: 14px;
+    justify-content: flex-start;
+    width: 100%;
+    color: #fefbea;
+  }
 }
 @media screen and (max-width: 480px) {
   .homeWrapper {
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width: 370px) {
+  .homeContainer {
+    line-height: 1;
+    padding: 20px;
+  }
+  .homeWrapper {
+    line-height: 1;
+  }
+  .homeHeader > .hello {
+    font-size: 18px;
+  }
+  .homeHeader > .name {
+    font-size: 30px;
+  }
+  .homeHeader > .title {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .homeHeader > .hello {
+    font-size: 18px;
+  }
+  .homeHeader > .name {
+    font-size: 30px;
+  }
+
+  .homeHeader > p > div {
+    font-size: 12px;
     line-height: 1.2;
   }
 }

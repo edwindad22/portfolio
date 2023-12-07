@@ -48,6 +48,8 @@ const Portfolio = () => {
         <h2 className='portfolio__header'>Projects</h2>
         <div className='container portfolio__wrapper'>
           <article
+            onTouchStart={() => handelMouseEnter(1)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(1)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -78,6 +80,8 @@ const Portfolio = () => {
               </div> */}
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(2)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(2)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -108,6 +112,8 @@ const Portfolio = () => {
             </div> */}
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(3)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(3)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -133,6 +139,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(4)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(4)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -158,6 +166,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(5)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(5)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -183,6 +193,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(6)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(6)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -208,6 +220,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(7)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(7)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -233,6 +247,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(8)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(8)}
             onMouseLeave={handelMouseLeave}
             className={
@@ -257,6 +273,8 @@ const Portfolio = () => {
             </div>
           </article>
           <article
+            onTouchStart={() => handelMouseEnter(9)}
+            onTouchEnd={handelMouseLeave}
             onMouseEnter={() => handelMouseEnter(9)}
             onMouseLeave={handelMouseLeave}
             className={
