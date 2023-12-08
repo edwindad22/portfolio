@@ -20,7 +20,7 @@
 }
 
 .navLeftLinks > a {
-  color: #fcfcfc;
+  color: rgb(206, 206, 206);
   text-decoration: none;
   border-bottom: 1.5px solid transparent;
   transition: 500ms ease-in-out;
@@ -47,7 +47,7 @@
 }
 
 .navRightLinks > a {
-  color: #fcfcfc;
+  color: rgb(206, 206, 206);
   text-decoration: none;
   border-bottom: 1.5px solid transparent;
   transition: 300ms ease-in-out;

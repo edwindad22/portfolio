@@ -23,19 +23,19 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--color-bg-variant2);
+  background: var(--color-bg);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /* background: rgba(255, 193, 128, 0.65); */
-  background: rgba(203, 154, 102, 0.65);
+  background: rgba(203, 154, 102, 0.453);
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(155, 118, 78, 0.65);
+  background: rgba(155, 118, 78, 0.543);
 }
 :root {
   /* --color-bg: #14213d; */
@@ -51,7 +51,8 @@ body {
   /* --color-primary: rgb(187, 145, 117); */
   --color-primary-variant: rgb(53, 83, 90);
   --color-1: rgb(206, 246, 225);
-  --color-2: rgb(4, 165, 85);
+  --color-2: #20b2aa;
+  /* --color-2: rgb(4, 165, 85); */
   --color-white: #fff;
   --color-light: rgba(225, 225, 225, 0.6);
 

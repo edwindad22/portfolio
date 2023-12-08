@@ -2,8 +2,6 @@
   background: var(--color-bg);
   width: 100%;
   padding: 0px 30px 30px 30px;
-
-  /* color: #eff8e2; */
 }
 .experience__container > .experience__header {
   color: #eff8e2;
@@ -20,15 +18,15 @@
 .experience__wrapper > .experience__frontend {
   margin: 2.5px;
   border-right: 2px solid var(--color-primary);
-
+  /* background: #1b4d3e; */
   padding: 2.4rem 5rem;
   transition: var(--transition);
-  color: var(--color-1);
+  /* color: var(--color-2); */
+  color: rgba(255, 194, 128, 0.8);
 }
 
 .experience__wrapper > .experience__frontend:hover {
   background: transparent;
-
   border-color: var(--color-2);
   cursor: default;
 }
@@ -41,7 +39,7 @@
   /* border-radius: 5px; */
   /* border: 1px solid transparent; */
   transition: var(--transition);
-  color: var(--color-1);
+  color: rgba(255, 194, 128, 0.8);
   /* color: #d7dde5; */
 }
 
@@ -76,13 +74,14 @@ small {
   /* font-style: italic; */
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 600;
-  -webkit-text-fill-color: var(--color-2);
+  /* -webkit-text-fill-color: #20b2aa; */
+  color: #20b2aa;
 }
 
 .experience__details-icon {
   margin-top: 6px;
   margin: 10px;
-  color: rgb(255, 193, 38);
+  color: #2ff6eca4;
 }
 
 @media screen and (max-width: 1300px) {

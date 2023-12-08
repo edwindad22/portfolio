@@ -4,7 +4,7 @@
   width: 35px;
   /* height: 87vh; */
   position: fixed;
-  bottom: 0px;
+  bottom: 10px;
 }
 
 .sideWrapper {
@@ -14,11 +14,12 @@
 }
 
 .sideUp {
-  height: 50vh;
+  /* height: 50vh; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: #000; */
 }
 .sideUp > div {
   width: 5%;
@@ -28,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 36vh;
+  /* height: 36vh; */
   width: 100%;
   flex-direction: column;
 }
@@ -38,15 +39,22 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;
   font-size: 20px;
-  color: #fcfcfc;
-  margin-top: 50px;
+  color: rgb(206, 206, 206);
+  /* margin-top: 50px; */
+}
+.sideDown > .sideIcons hr {
+  background-color: var(--color-primary);
+  border-width: 0px;
+  height: 80px;
+  width: 1px;
+  margin-left: 19px;
 }
 .sideDown > .sideIcons > a > .sideIcon {
   border-bottom: 1px solid transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin: 10px;
 }
 .sideDown > .sideIcons > a > .sideIcon:hover {
   color: var(--color-primary);

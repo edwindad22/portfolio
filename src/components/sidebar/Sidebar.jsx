@@ -34,8 +34,9 @@ const Sidebar = () => {
               >
                 <AiFillGithub className='sideIcon' />
               </a>
+              <hr />
             </div>
-            <div className='empty'></div>
+            {/* <div className='empty'></div> */}
           </div>
         </div>
       </div>

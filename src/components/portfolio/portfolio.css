@@ -103,13 +103,15 @@
   padding: 0.25rem 0.75rem;
   width: 25%;
   /* background: rgb(199, 126, 0); */
-  background-color: rgba(45, 212, 191, 0.1);
+  /* background-color: rgba(45, 212, 191, 0.1); */
+  background: #20b2ab2c;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 9999px;
   font-size: 11px;
   font-weight: 500;
+  opacity: 0.8;
   border: 0.01px solid var(--color-2);
   -webkit-text-fill-color: var(--color-1);
   font-family: 'Montserrat Alternates', sans-serif;

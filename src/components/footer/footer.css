@@ -14,6 +14,7 @@ footer a {
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
+
 footer a:hover {
   color: #c5cbd3;
 }
