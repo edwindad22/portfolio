@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <AiOutlineMail className='sideIcon' />
               </a>
               <a
-                href='https://www.linkedin.com/in/temid22/'
+                href='https://www.linkedin.com/in/paul-temidayo-303497163/'
                 target='_blank'
                 rel='noopener noreferrer'
               >

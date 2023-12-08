@@ -1,16 +1,7 @@
 import './contact.css';
-import React, { useRef, useState } from 'react';
-// import emailjs from '@emailjs/browser';
-import emailjs from 'emailjs-com';
+import React, { useEffect, useRef, useState } from 'react';
 
 const Contact = () => {
-  // const form = useRef();
-
-  // const clearFields = (e) => {
-  //   e.preventDefault();
-  //   e.target.reset();
-  // };
-
   return (
     <section id='contact'>
       <div className='container contact__container'>
