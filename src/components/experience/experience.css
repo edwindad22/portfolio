@@ -81,7 +81,7 @@ small {
 .experience__details-icon {
   margin-top: 6px;
   margin: 10px;
-  color: #2ff6eca4;
+  color: rgb(255, 194, 128);
 }
 
 @media screen and (max-width: 1300px) {
