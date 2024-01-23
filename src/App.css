@@ -1,3 +1,9 @@
 .container {
   margin: 0px auto;
 }
+
+.mentor-badge {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
