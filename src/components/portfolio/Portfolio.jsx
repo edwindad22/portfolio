@@ -8,6 +8,7 @@ import IMG6 from '../../assets/stripe-integration.png';
 import IMG7 from '../../assets/pokemon.png';
 import IMG8 from '../../assets/sudaperfume.png';
 import IMG9 from '../../assets/buy-it.png';
+import IMG10 from '../../assets/bmad.jpeg';
 import { useState } from 'react';
 
 const Portfolio = () => {
@@ -32,7 +33,8 @@ const Portfolio = () => {
     } else if (projectId === 8) {
       setHover('8');
     } else if (projectId === 9) {
-      setHover('9');
+    } else if (projectId === 10) {
+      setHover('10');
     } else {
       setHover('');
     }
@@ -47,6 +49,44 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         <h2 className='portfolio__header'>Projects</h2>
         <div className='container portfolio__wrapper'>
+          <a
+            href='https://www.buymeadrink.xyz/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <article
+              onTouchStart={() => handelMouseEnter(10)}
+              onTouchEnd={handelMouseLeave}
+              onMouseEnter={() => handelMouseEnter(10)}
+              onMouseLeave={handelMouseLeave}
+              className={
+                hover === '10' ? 'portfolio__items_hovered' : 'portfolio__items'
+              }
+            >
+              <div className='portfolio__item-image'>
+                <img
+                  className={
+                    hover === '10'
+                      ? 'portfolio__image-hover'
+                      : 'portfolio__image'
+                  }
+                  src={IMG10}
+                  alt=''
+                />
+              </div>
+              <h3>Buy Me A Drink</h3>
+              <div className='portfolio__stacks'>
+                <div>ReactJs</div>
+                <div>NodeJs</div>
+                <div>Base</div>
+                <div>Privy</div>
+                <div>ExpressJs</div>
+                <div>MongoDB</div>
+                <div>Tailwind Css</div>
+                <div>Coinbase Smartwallet</div>
+              </div>
+            </article>
+          </a>
           <article
             onTouchStart={() => handelMouseEnter(1)}
             onTouchEnd={handelMouseLeave}
@@ -73,11 +113,6 @@ const Portfolio = () => {
               <div>Firebase</div>
               <div>express</div>
             </div>
-            {/* <div className='portfolio__item-cta'>
-              <a href='https://github.com' target='_blank' className='btn'>
-                Check Out
-                </a>
-              </div> */}
           </article>
           <article
             onTouchStart={() => handelMouseEnter(2)}

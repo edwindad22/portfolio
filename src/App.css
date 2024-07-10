@@ -1,5 +1,7 @@
 .container {
   margin: 0px auto;
+  max-width: 1530px;
+  width: 100%;
 }
 
 .mentor-badge {
