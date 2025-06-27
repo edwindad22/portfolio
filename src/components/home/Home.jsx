@@ -15,7 +15,7 @@ const Home = () => {
           <div className='homeHeader'>
             <h3 className='hello'> Hello there, I'm </h3>
 
-            <h1 className='name'>Abu Paul Temidayo</h1>
+            <h1 className='name'>Abu .F. Paul Temidayo </h1>
             <h3 className='title'>Fullstack Software Engineer</h3>
             <p>
               <div>
@@ -27,11 +27,14 @@ const Home = () => {
             </p>
             <div className='homeBtns'>
               <a href='#portfolio'>
-                <button className='homeBtn1'>Explore My Projects</button>
+                <button className='homeBtn1'>Projects</button>
               </a>
-              <a href='#contact'>
+              <a href="https://www.codementor.io/@fatairash?refer=badge">
+                <img className='homeBtn2' src="https://www.codementor.io/m-badges/fatairash/find-me-on-cm-g.svg" alt="Contact me on Codementor" />
+              </a>
+              {/* <a href='#contact'>
                 <button className='homeBtn2'>Start A Project</button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -40,9 +43,13 @@ const Home = () => {
       <div className='homePortfolio'>
         <Portfolio />
       </div>
-      <Contact />
+      <div className='homeContact'>
+
+        <Contact />
+      </div>
       {/* <SrollToTop /> */}
       <Footer />
+
     </div>
   );
 };
