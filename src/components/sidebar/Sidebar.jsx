@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <FaLinkedinIn className='sideIcon' />
               </a>
               <a
-                href='https://github.com/temid22'
+                href='https://github.com/edwindad22'
                 target='_blank'
                 rel='noopener noreferrer'
               >
